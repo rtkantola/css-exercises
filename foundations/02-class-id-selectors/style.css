@@ -1,0 +1,20 @@
+.paragraph{
+    color: rgb(0, 0, 0);
+    background-color: rgb(253, 167, 167);
+    font-size: 18px;
+    font-family: Verdana, sans-serif;
+}
+.paragraph.cooler {
+    font-size: 24px;
+}
+
+#kaksi {
+    background-color: rgb(255, 255, 255);
+    color: blue;
+    font-size: 34px;
+}
+#nelja {
+    font-weight: bold;
+    background-color: lightgreen;
+    font-size: 24px;
+}

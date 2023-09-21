@@ -9,6 +9,9 @@ body {
 }
 
 .header {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
@@ -28,8 +31,18 @@ body {
   font-weight: 900;
   font-style: italic;
 }
-
+.links-and-logo {
+  display: flex;
+  align-items: center;
+  
+}
+.container {
+  display: flex;
+  align-items: center;
+  
+}
 button {
+  
   border: none;
   border-radius: 8px;
   background: rebeccapurple;
@@ -44,5 +57,7 @@ a {
 }
 
 ul {
+  
+  display: flex;
   list-style-type: none;
 }
